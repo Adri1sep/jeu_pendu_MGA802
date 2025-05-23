@@ -128,7 +128,6 @@ def executer_jeu():
         memoire = []
         print("\nBienvenue sur le jeu du pendu, un mot a été choisi parmi ceux du fichier texte fourni, le voici incomplet:\n")
         mot_a_deviner=choisir_mot()
-        mot_a_deviner="éteindre"
         # definition du mot a trou
         a_completer = '_' * len(mot_a_deviner)
         vies=6
