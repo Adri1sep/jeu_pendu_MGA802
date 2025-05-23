@@ -109,7 +109,6 @@ def proposer_lettre(c,d):
             else:
                 #3eme cas
                 cas.append(3)
-            print(cas)
         if (not(lettre in c) and not(lettre in ["a","e","i","o","u"])) or (1 not in cas and 3 in cas):
             print("\nCette lettre n'est pas dans le mot.\n")
             # on renvoie la reussite,le mot a completer si il a été changé et enfin la lettre proposée pour garder en mémoir
